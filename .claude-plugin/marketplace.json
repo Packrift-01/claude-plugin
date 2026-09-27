@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "packrift",
+  "owner": {
+    "name": "Packrift",
+    "email": "support@packrift.com",
+    "url": "https://packrift.com"
+  },
+  "metadata": {
+    "description": "Packrift's Claude plugin: packaging supplies with live prices, fit checks and checkout."
+  },
+  "plugins": [
+    {
+      "name": "packrift",
+      "source": "./",
+      "description": "Find, size, price and order packaging supplies from Packrift, with live prices, fit checks, delivered pricing and checkout links.",
+      "category": "productivity",
+      "homepage": "https://mcp.packrift.com/start"
+    }
+  ]
+}

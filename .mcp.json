@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "packrift": {
+      "type": "http",
+      "url": "https://mcp.packrift.com/mcp"
+    }
+  }
+}
