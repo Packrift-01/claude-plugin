@@ -41,7 +41,7 @@ claude plugin install packrift@packrift
 
 The plugin bundles one remote MCP server, Packrift's public catalog server at `https://mcp.packrift.com/mcp` (Streamable HTTP, no authentication). The skills call its tools: `search_products`, `find_packaging_for_item`, `get_product`, `get_shipping_estimate`, `create_cart_url` and `get_bulk_quote_link`.
 
-When a skill runs, Claude sends the server only the tool arguments needed for your request: search text, item dimensions and weight, SKUs and quantities, and a US ZIP code (and optional state) for delivered pricing. The plugin has no hooks, runs no local code and reads no files. The tools are read-only: they never place an order or take payment. A checkout link opens your cart on packrift.com, where you review and pay.
+When a skill runs, Claude sends the server only the tool arguments needed for your request: search text, item dimensions and weight, SKUs and quantities, and a US ZIP code (and optional state) for delivered pricing. The plugin has no hooks, runs no local code and reads no files. The tools are read-only: they never place an order or take payment. A checkout link opens packrift.com checkout with the items you chose, where you add your address and pay.
 
 Packrift keeps usage records (tool, time, search text, SKUs returned, assistant type) for up to 90 days to improve results, and does not store names, email addresses, phone numbers, street addresses or IP addresses from these requests. Full notice: https://mcp.packrift.com/privacy. Orders on packrift.com follow the [Packrift privacy policy](https://packrift.com/policies/privacy-policy).
 

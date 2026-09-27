@@ -1,6 +1,6 @@
 # Packrift plugin evals
 
-Eight cases covering item fit (fragile and apparel), buying with a checkout link, delivered pricing, right-sizing, a bulk quote, a packaging question and one request the plugin should not act on (carrier rate shopping).
+Twelve cases: item fit (fragile and apparel), buying with a checkout link, delivered pricing, right-sizing, a printed-box quote (which must not carry a stock SKU), a box-strength question, bulk tape, a mailer comparison, a new candle business, and two requests the plugin should stay out of (carrier rate shopping and postage).
 
 Run from the plugin root. The Packrift MCP tools are gated, so grant them for the run:
 
