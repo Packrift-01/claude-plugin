@@ -33,7 +33,7 @@ Claude picks the right skill from your request. In Claude Code you can also run 
 **Claude Code from this repository:**
 
 ```bash
-claude plugin marketplace add Packrift/claude-plugin
+claude plugin marketplace add Packrift-01/claude-plugin
 claude plugin install packrift@packrift
 ```
 
