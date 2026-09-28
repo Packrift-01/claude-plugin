@@ -10,6 +10,7 @@
     "url": "https://packrift.com"
   },
   "homepage": "https://mcp.packrift.com/start",
+  "privacyPolicyUrl": "https://mcp.packrift.com/privacy",
   "repository": "https://github.com/Packrift/claude-plugin",
   "license": "MIT",
   "keywords": [
@@ -28,5 +29,6 @@
     "poly-bags",
     "labels",
     "stretch-film"
-  ]
+  ],
+  "icon": "assets/packrift-logo.png"
 }
