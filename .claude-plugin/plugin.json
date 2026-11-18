@@ -2,7 +2,7 @@
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "packrift",
   "displayName": "Packrift Packaging",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Find, size, price and order packaging supplies from Packrift: shipping boxes, mailer boxes, poly and bubble mailers, poly bags, labels, packing tape and stretch film. Fit any item to the right box or mailer with cushioning, box-strength and dimensional-weight checks, see live prices and stock, get the delivered cost to a US ZIP code, and check out on packrift.com.",
   "author": {
     "name": "Packrift",
@@ -28,7 +28,8 @@
     "packing-tape",
     "poly-bags",
     "labels",
-    "stretch-film"
+    "stretch-film",
+    "shipping-costs"
   ],
   "icon": "assets/packrift-logo.png"
 }
